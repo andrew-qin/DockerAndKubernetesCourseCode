@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:sdk
-LABEL author="andyhqin"
+LABEL author="Andrew Qin"
 ENV ASPNETCORE_URLS=http://*:5000
 WORKDIR /var/www/aspnetcoreapp
 COPY . .
